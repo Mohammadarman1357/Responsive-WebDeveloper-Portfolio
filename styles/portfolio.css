@@ -108,7 +108,7 @@ nav li a {
 }
 
 .banner-title {
-    font-size: 85px;
+    font-size: 80px;
     font-weight: bold;
 }
 
@@ -256,22 +256,23 @@ footer textarea {
         flex-direction: column;
     }
 
-    .banner,
-    nav {
+    .banner , nav{
         margin: 20px;
     }
 
+    .banner-content{
+        width: 100%;
+    }
     nav>ul {
         gap: 20px;
     }
 
     .header {
-        background: none;
+        background-image: none;
     }
 
     .banner-profile-pic {
         width: 100%;
-        height: 100%;
     }
 
     .btn-primary {
