@@ -241,8 +241,8 @@ footer input[type="text"], footer input[type="email"], footer textarea{
 
 /* mobile device */
 @media screen and (max-width:576px) {
-    .skills-container
-    /* .resume-container, */
+    .skills-container,
+    .resume-container
     /* .about-items */
     {
         flex-direction: column;
