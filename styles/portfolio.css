@@ -232,3 +232,23 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     padding: 10px 30px;
     margin-bottom: 24px;
 }
+
+.hide{
+    display: none;
+}
+
+/* responsive media query */
+
+/* mobile device */
+@media screen and (max-width:576px) {
+    .skills-container
+    /* .resume-container, */
+    /* .about-items */
+    {
+        flex-direction: column;
+    }
+/* 
+    .about {
+        padding: 20px;
+    } */
+}
